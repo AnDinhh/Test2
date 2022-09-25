@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    font-family: 'RazerF5',Arial,Helvetica,sans-serif;
+    padding-bottom: 10px;
+    background-color: #222;
+}
+.head{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1.2px solid #44D62C;
+    position: top;
+    top: 0;
+    width: 100%;
+}
+.head1{
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+.title1{
+    color: white;
+    font-size: 9px;
+    outline-style: none!important;
+    position: relative;
+    font-weight: 700;
+    font-size: 13px;
+    padding-left: 30px;
+}
+.title{
+    color: #999;
+    font-size: 1rem;
+    font-family: RazerF5,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    z-index: 1001;
+    background-color: #000;
+    outline-style: none!important;
+    position: relative;
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 30px;
+    cursor: pointer;
+    padding-inline-start: 50px;
+}
+.title:hover{
+    color: #fff;
+}
+#product-img1{
+    display: flex;
+    width: 1920px;
+    height: 1080px;
+    font-size: large;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: #222;
+    background-image: url('https://assets.beartai.com/uploads/2022/08/razer-soundbar.jpg');
+}
+#product-img2{
+    display: flex;
+    width: 1920px;
+    height: 900px;
+    font-size: large;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: #222;
+    background-image: url('https://assets2.razerzone.com/images/pnx.assets/b32ed0288bb5eb39050b34c19ad71d6d/razer-blade-14-ultra-quartz-carousel-1-desktop.jpg');
+}
+.product-text{
+    display: flex;
+    font-size: 70px;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 639px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 60px;
+}
+#product-img3{
+    display: flex;
+    width: 1920px;
+    height: 700px;
+    font-size: large;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: #222;
+    background-image: url('https://assets2.razerzone.com/images/pnx.assets/d24672112ff237ece31fd792eb39dba6/razercon2022-homepage-desktop1x.jpg');
+}
+#left_sidebar1{
+    display: flex;
+    float:left;
+    width: 923px;
+    height: 580px;
+    font-size: large;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: #222;
+    background-image: url('https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/twitchcon-b-950x580-desktop.jpg');
+}
+.text{
+    display: flex;
+    font-size: 40px;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 350px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 50px;
+}
+.button:hover{
+    cursor: pointer;
+    flex-direction: column;
+    text-decoration: underline;
+    
+
+}
+.left_button:hover{
+    cursor: pointer;
+    width: 200px;
+    float: left;
+    text-align: center;
+    text-decoration: underline;
+    }  
+ .right_button:hover{
+    cursor: pointer;
+    width: 200px;
+    float: right;
+    text-align: center;
+    text-decoration: underline;
+ }
+ .left_button1:hover{
+    cursor: pointer;
+    width: 200px;
+    float: left;
+    text-align: center;
+    text-decoration: underline;
+    }  
+ .right_button1:hover{
+    cursor: pointer;
+    width: 200px;
+    float: right;
+    text-align: center;
+    text-decoration: underline;
+ }
+#left_sidebar2{
+    display: flex;
+    float:left;
+    width: 923px;
+    height: 580px;
+    font-size: large;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: #222;
+    background-image: url('https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/razer-enki-pro-koenigsegg-williams-esports-950x580-desktop.jpg');
+}
+#right_sidebar1{
+    display: flex;
+    float:right;
+    width: 923px;
+    height: 580px;
+    font-size: large;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: #222;
+    background-image:url('https://assets2.razerzone.com/images/pnx.assets/775b8527dbfc2fd1f50d93c63e7bfbb3/razerstore-reward-acquisition-b-950x580-desktop.jpg') ;
+}
+#right_sidebar2{
+    display: flex;
+    float:right;
+    width: 923px;
+    height: 580px;
+    font-size: large;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: #222;
+    background-image:  url('https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/paidia-customs-mice-b-950x580-desktop.jpg');
+}
+#left_sidebar3{
+    display: flex;
+    float:left;
+    width: 923px;
+    height: 580px;
+    font-size: large;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: #222;
+    background-image: url('https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/razer-blade-15-b-950x580-desktop-oled.jpg');
+}
+#right_sidebar3{
+    display: flex;
+    float:right;
+    width: 923px;
+    height: 580px;
+    font-size: large;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: #222;
+    background-image:url('https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/razer-katana-chroma-b-950x580-desktop.jpg') ;
+}
+ .left_button{
+    width: 190px;
+    float: left;
+    text-align: center;
+    }
+ .right_button{
+    width: 190px;
+    float: left;
+    text-align: center;
+ }
+ .left_button1{
+    width: 200px;
+    float: left;
+    text-align: center;
+    }
+ .right_button1{
+    width: 200px;
+    float: left;
+    text-align: center;
+ }
